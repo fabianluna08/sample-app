@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>App web de muestra</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Llamada recibida desde {{ request.remote_addr }}</h1>
+  <p>Página generada por Flask con una plantilla y archivos estáticos.</p>
+</body>
+</html>
