@@ -1,7 +1,7 @@
 #!/bin/bash
 # sample-app.sh: empaqueta la app Flask en una imagen Docker y ejecuta el contenedor
 set -e
-PUERTO=8080
+PUERTO=5050
 
 # 1. Limpiar ejecuciones anteriores
 docker rm -f samplerunning 2>/dev/null || true
